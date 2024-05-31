@@ -1,0 +1,25 @@
+.header{
+  background-color: black;
+  display: flex;
+}
+
+.menu ul{
+  display: block;
+  list-style-type: none;
+  
+}
+
+.menu li{
+  float:left;
+  padding:10px;
+}
+
+.menu li a{
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+}
+
+.menu{
+  flex:2;
+}
